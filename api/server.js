@@ -11,7 +11,7 @@ app.get('/city', async (req, res) => {
     return res.status(400).send()
   }
   try {
-  const data = await csv().fromFile('./assets/cities_csv.csv')
+  const data = await csv().fromFile('api/assets/cities_csv.csv')
   const city = data.find((city) => city['Hebrew name'].replace("-", ' ') === req.query.address.replace("-", ' '))
   if (!city) {
     return res.status(404).send()
