@@ -10,7 +10,6 @@ app.use(express.static(path.join(__dirname, '..', 'build')));
 
 const PORT = process.env.PORT || 5000
 
-
 app.get('/city', async (req, res) => {
   if (!req.query.address) {
     return res.status(400).send()
