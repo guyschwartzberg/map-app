@@ -10,10 +10,6 @@ app.use(cors())
 app.use(bodyParser.urlencoded({ extended: true}))
 app.use(bodyParser.json())
 
-app.use(express.static(path.join(__dirname, '..', 'build')));
-
-const PORT = process.env.PORT || 5000
-
 app.get('/city', async (req, res) => {
   if (!req.query.address) {
     return res.status(400).send()
@@ -37,6 +33,13 @@ app.get('/city', async (req, res) => {
 }
 })
 
+app.use(express.static(path.join(__dirname, '..', 'build')));
+
+const PORT = process.env.PORT || 5000
+
+app.use('/*', async (request, response) => {
+  response.sendFile(path.join(__dirname, '..', '/build/index.html'));
+});
 
 app.listen(PORT, () => {
   console.log(`server started on port ${PORT}`)
