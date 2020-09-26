@@ -10,11 +10,19 @@ function SearchBar(props) {
 
   const [form] = Form.useForm();
   const { addToData, data } = props
+  const globalHeaders = {
+    pragma: 'no-cache',
+    'cache-control': 'no-cache',
+    'Content-Type': 'application/json',
+  };
+  
 
   const submitCity = async ({ cityname }) => {
     if (!data.find((city) => city.hebrewName === cityname.replace("-", ' '))) {
+      try {
       const response = await fetch('/city?address='+encodeURIComponent(cityname), {
         method: 'GET',
+        headers : globalHeaders
       })
       if (response.status === 200) {
         const body = await response.json()
@@ -22,6 +30,9 @@ function SearchBar(props) {
         form.resetFields();
         return;
       }
+    } catch (e) {
+      console.log(e)
+    }
     }
     animateCSS('.inputbar', 'shakeX').catch((e) => {
       console.log(e)
