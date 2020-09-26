@@ -3,8 +3,12 @@ const path = require('path');
 const app = express();
 const csv = require('csvtojson');
 const geocode = require('./geocode.js')
+const cors = require('cors')
+const bodyParser = require('body-parser')
 
-app.use(express.json())
+app.use(cors())
+app.use(bodyParser.urlencoded({ extended: true}))
+app.use(bodyParser.json())
 
 app.use(express.static(path.join(__dirname, '..', 'build')));
 
