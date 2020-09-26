@@ -3,12 +3,8 @@ const path = require('path');
 const app = express();
 const csv = require('csvtojson');
 const geocode = require('./geocode.js')
-const cors = require('cors')
-const bodyParser = require('body-parser')
 
-app.use(cors())
-app.use(bodyParser.urlencoded({ extended: true}))
-app.use(bodyParser.json())
+app.use(express.json())
 
 app.get('/city', async (req, res) => {
   if (!req.query.address) {
