@@ -17,7 +17,7 @@ app.get('/city', async (req, res) => {
   if (!city) {
     return res.status(404).send()
   }
-  geocode(city['English name'].replace("-", " ") + ", Israel", (error, body) => {
+  geocode(city['English name'], (error, body) => {
     if (error) {
       return res.status(500).send(error)
     }
