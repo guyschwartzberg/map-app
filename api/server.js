@@ -38,6 +38,7 @@ app.use('/*', async (request, response) => {
   response.sendFile(path.join(__dirname, '..', '/build/index.html'));
 });
 
-app.listen(PORT, () => {
+var server = app.listen(PORT, () => {
   console.log(`server started on port ${PORT}`)
+  console.log(server.address().address)
 });
