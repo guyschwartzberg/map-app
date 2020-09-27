@@ -21,7 +21,7 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "start": "cd api && yarn start",
-    "dev": "yarn start-client && nodemon server.js"
+    "dev": "nodemon api/server.js"
   },
   "eslintConfig": {
     "extends": "react-app"

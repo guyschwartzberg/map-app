@@ -1,18 +1,18 @@
 const request = require('postman-request')
 
 const geocode = (address, callback) => {
-    const url = 'https://api.mapbox.com/geocoding/v5/mapbox.places/' + encodeURIComponent(address) + '.json?access_token=pk.eyJ1IjoiZGFtcmlkZXIiLCJhIjoiY2tmMng3ZGt0MDBhODJ5cG1rdzM1b3hvOCJ9.UdmG7TNnsdzMYK_S74GyNQ&limit=1&country=IL'
+    const url = `https://eu1.locationiq.com/v1/search.php?key=pk.663a5c75fa6e11b8fff38ca8d1da8e5b&q=${encodeURIComponent(address)}&countrycodes=IL&format=json&limit=1&normalizeaddress=1&accept-language=native`
     request({ url, json: true }, (error, { body }) => {
         if (error) {
             callback('Unable to connect to location services!', undefined)
-        } else if (body.features.length === 0 ) {
+        } else if (body.error) {
             callback('Unable to find location. Try another search', undefined)
         } else {
-            const { features } = body
+            const {lat, lon, display_name } = body[0]
             callback(undefined, { 
-                longitude: features[0].center[0],
-                latitude: features[0].center[1],
-                location: features[0].place_name,
+                longitude: parseFloat(lon),
+                latitude: parseFloat(lat),
+                location: display_name,
                 address } )
         }
     } )

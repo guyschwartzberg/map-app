@@ -111,7 +111,7 @@
 אשבול,652,Eshbol
 אשבל,126,Eshbal
 אשדוד,225939,Ashdod
-אשדות יעקב (איחוד),1003,Ashdot Ya'aqov(Ihud)
+אשדות יעקב (איחוד)#אשדות יעקב,1003,Ashdot Ya'aqov(Ihud)
 אשדות יעקב (מאוחד),545,Ashdot Ya'aqov(Me'uhad)
 אשחר,965,Eshhar
 אשכולות,577,Eshkolot
@@ -193,7 +193,7 @@
 בן זכאי,1132,Ben Zakkay
 בן עמי,765,Ben Ammi
 בן שמן (כפר נוער),620,Ben Shemen(K.No'ar)
-בן שמן (מושב),870,Ben Shemen (Moshav)
+בן שמן (מושב)#בן שמן,870,Ben Shemen (Moshav)
 בני ברק,204640,Bene Beraq
 בני דקלים,1211,Bne Dkalim
 בני דרום,903,Bene Darom
@@ -205,7 +205,7 @@
 בני ציון,1371,Bene Ziyyon
 בני ראם,1416,Bene Re'em
 בניה,798,Benaya
-בנימינה-גבעת עדה*,15846,Binyamina-Giv'at Ada
+בנימינה-גבעת עדה#בנימינה#בניימינה#גבעת עדה,15846,Binyamina-Giv'at Ada
 "בסמ""ה",10010,Basma
 בסמת טבעון,7915,Basmat Tab'un
 בענה,8381,Bi'ne
@@ -235,7 +235,7 @@
 ג'ולס,6466,Julis
 ג'לג'וליה,10148,Jaljulye
 ג'סר א-זרקא,14930,Jisr Az-Zarqa
-ג'ש (גוש חלב),3105,Jish(Gush Halav)
+ג'ש (גוש חלב)#גוש חלב#ג'ש,3105,Jish(Gush Halav)
 ג'ת,12100,Jatt                                              
 גאולי תימן,360,Ge'ule Teman
 גאולים,968,Ge'ulim
@@ -254,7 +254,7 @@
 גבעת השלושה,869,Giv'at HaShelosha
 גבעת זאב,18420,Giv'at Ze'ev
 "גבעת ח""ן",374,Giv'at Hen
-גבעת חיים (איחוד),1176,Giv'at Hayyim (Ihud)
+גבעת חיים (איחוד)#גבעת חיים,1176,Giv'at Hayyim (Ihud)
 גבעת חיים (מאוחד),1019,Giv'at Hayyim(Me'uhad)
 גבעת יואב,707,Giv'at Yo'av
 גבעת יערים,1454,Giv'at Ye'arim
@@ -291,7 +291,7 @@
 גלאון,582,Gal'on
 גלגל,203,Gilgal
 גליל ים,533,Gelil Yam
-גלעד (אבן יצחק),493,Gal'ed (Even Yizhaq)
+גלעד (אבן יצחק)#גלעד#אבן יצחק,493,Gal'ed (Even Yizhaq)
 גמזו,1206,Gimzo
 גן הדרום,636,Gan HaDarom
 גן השומרון,861,Gan HaShomeron
@@ -317,7 +317,7 @@
 גשור,280,Geshur
 גשר,427,Gesher
 גשר הזיו,1614,Gesher HaZiw
-גת (קיבוץ),869,Gat(Qibbuz)
+גת (קיבוץ)#גת,869,Gat(Qibbuz)
 גת רימון,326,Gat Rimmon
 דאלית אל-כרמל,17652,Daliyat Al-Karmel
 דבורה,216,Devora
@@ -417,7 +417,7 @@
 חנתון,984,Hannaton
 חספין,2055,Haspin
 חפץ חיים,558,Hafez Hayyim
-חפצי-בה,732,Hefzi-Bah
+חפצי-בה#חפציבה,732,Cheftziba
 חצב,1486,Hazav
 חצבה,620,Hazeva
 חצור-אשדוד,653,Hazor-Ashdod
@@ -433,7 +433,7 @@
 טובא-זנגרייה,6776,Tuba-Zangariyye
 טורעאן,14240,Tur'an
 טייבה,43957,Tayibe
-טייבה (בעמק),1865,Tayibe(Baemeq)
+טייבה (בעמק)#טייבה בעמק,1865,Tayibe(Baemeq)
 טירה,26552,Tire
 טירת יהודה,1201,Tirat Yehuda
 טירת כרמל,23112,Tirat Karmel
@@ -443,7 +443,7 @@
 טללים,543,Telalim
 טלמון,4575,Talmon
 טמרה,34393,Tamra
-טמרה (יזרעאל),1601,Tamra (Yizre'el)
+טמרה (יזרעאל)#טמרה יזרעאל,1601,Tamra (Yizre'el)
 טנא,872,Tene
 טפחות,478,Tefahot
 יאנוח-ג'ת,6679,Yanuh-Jat
@@ -487,7 +487,7 @@
 יציץ,822,Yaziz
 יקום,771,Yaqum
 יקיר,2288,Yaqir
-יקנעם (מושבה),1401,Yoqne'am(Moshava)
+יקנעם (מושבה)#יקנעם,1401,Yoqne'am(Moshava)
 יקנעם עילית,23797,Yoqne'am Illit
 יראון,404,Yir'on
 ירדנה,371,Yardena
@@ -521,7 +521,7 @@
 כמון,1402,Kammon
 כנות,439,Kannot
 כנף,461,Kanaf
-כנרת (מושבה),685,Kinneret(Moshava)
+כנרת (מושבה)#כנרת,685,Kinneret(Moshava)
 כנרת (קבוצה),690,Kinneret(Qevuza)
 כסיפה,21866,Kuseife
 כסלון,427,Kesalon
@@ -594,7 +594,7 @@
 כפר קיש,619,Kefar Kisch
 כפר קרע,19018,Kafar Qara
 כפר ראש הנקרה,1362,Kefar Rosh HaNiqra
-כפר רוזנואלד (זרעית),243,Kefar Rozenwald(Zarit)
+כפר רוזנואלד (זרעית)#כפר רוזנואלד#זרעית#כפר רוזנוולד,243,Kefar Rozenwald(Zarit)
 כפר רופין,531,Kefar Ruppin
 כפר רות,264,Kefar Rut
 כפר שמאי,559,Kefar Shammay
@@ -605,7 +605,7 @@
 כרכום,528,Karkom
 כרם בן זמרה,526,Kerem Ben Zimra
 כרם בן שמן,85,Kerem Ben Shemen 
-כרם יבנה (ישיבה),534,Kerem Yavne(Yeshiva)
+כרם יבנה (ישיבה)#כרם יבנה,534,Kerem Yavne(Yeshiva)
 "כרם מהר""ל",778,Kerem Maharal 
 כרם שלום,183,Kerem Shalom
 כרמי יוסף,1742,Karme Yosef
@@ -645,7 +645,7 @@
 מבקיעים,484,Mavqi'im
 מבשרת ציון,24052,Mevasseret Ziyyon
 מג'ד אל-כרום,15456,Majd al-Kurum
-מג'דל שמס,11180,Majdal Shams
+מג'דל שמס#מג'ד אל שמס,11180,Majdal Shams
 מגאר,22956,Mughar
 מגדים,1329,Megadim
 מגדל,1952,Migdal 
@@ -660,7 +660,7 @@
 מדרך עוז,794,Midrakh Oz
 מדרשת בן גוריון,1972,Midreshet Ben Gurion
 מדרשת רופין,307,Midreshet Ruppin 
-מודיעין-מכבים-רעות,93277,Modi'in-Makkabbim-Re'ut
+מודיעין-מכבים-רעות#מודיעין,93277,Modi'in-Makkabbim-Re'ut
 מודיעין עילית,76374,Modi'in Illit
 מולדת,1069,Moledet
 מוצא עילית,1212,Moza Illit
@@ -745,7 +745,7 @@
 מרום גולן,743,Merom Golan 
 מרחב עם,501,Merhav Am
 מרחביה (מושב),661,Merhavya(Moshav)
-מרחביה (קיבוץ),1248,Merhavya(Qibbuz)
+מרחביה (קיבוץ)#מרחביה,1248,Merhavya(Qibbuz)
 מרכז שפירא,2230,Merkaz Shappira
 משאבי שדה,481,Mash'abbe Sade
 משגב דב,721,Misgav Dov
@@ -825,14 +825,14 @@
 "ניל""י",1786,Nili
 ניצן,2461,Nizzan
 ניצן ב',498,Nizzan B
-ניצנה (קהילת חינוך),318,Nizzana (Qehilat Hinuh)
+ניצנה (קהילת חינוך)#ניצנה,318,Nizzana (Qehilat Hinuh)
 ניצני סיני,286,Nizzane Sinay
 ניצני עוז,1114,Nizzane Oz
 ניצנים,421,Nizzanim
 ניר אליהו,554,Nir Eliyyahu
 ניר בנים,726,Nir Banim
 ניר גלים,1396,Nir Gallim
-ניר דוד (תל עמל),729,Nir Dawid (Tel Amal)
+ניר דוד (תל עמל)#ניר דוד,729,Nir Dawid (Tel Amal)
 "ניר ח""ן",548,Nir Hen
 ניר יפה,724,Nir Yafe
 ניר יצחק,630,Nir Yizhaq
@@ -865,9 +865,9 @@
 נתניה,221352,Netanya
 סאג'ור,4270,Sajur
 סאסא,416,Sasa
-סביון*,4037,Savyon
+סביון,4037,Savyon
 סגולה,717,Segulla
-סואעד (חמרייה)*,182,Sawa'id(Hamriyye)
+סואעד #סואעד חמירה,182,Sawa'id(Hamriyye)
 סולם,2609,Sulam
 סוסיה,1339,Suseya
 סופה,211,Sufa
@@ -920,10 +920,10 @@
 עין זיוון,371,En Ziwan
 עין חוד,305,Ein Hod
 עין חרוד (איחוד),547,En Harod (Ihud)
-עין חרוד (מאוחד),760,En Harod(Me'uhad)
+עין חרוד (מאוחד)#עין חרוד,760,En Harod(Me'uhad)
 עין יהב,742,En Yahav
 עין יעקב,1137,En Ya'aqov
-"עין כרם-בי""ס חקלאי",173,En Karem-B.S.Haqla'i
+"עין כרם-בי""ס חקלאי#עין כרם",173,En Karem-B.S.Haqla'i
 עין כרמל,922,En Karmel 
 עין מאהל,13336,Ein Mahel
 עין נקובא,3505,Ein Naqquba
@@ -957,7 +957,7 @@
 עץ אפרים,2427,Ez Efrayim
 עצמון שגב,1121,Atsmon Segev
 עראבה,25833,Arrabe
-עראמשה*,1682,Aramsha
+עראמשה,1682,Aramsha
 ערב אל נעים,815,Arab Al Naim
 ערד,26756,Arad
 ערוגות,1147,Arugot
@@ -971,8 +971,8 @@
 פדויים,520,Peduyim
 פדיה,841,Pedaya
 פוריידיס,13246,Fureidis
-פורייה - כפר עבודה,354,Poriyya-Kefar Avoda
-פורייה - נווה עובד,1234,Poriyya-Newe Oved
+פורייה - כפר עבודה#פורייה-כפר עבודה,354,Poriyya-Kefar Avoda
+פורייה - נווה עובד#פורייה נווה עובד,1234,Poriyya-Newe Oved
 פורייה עילית,1162,Poriyya Illit
 פורת,1276,Porat
 פטיש,948,Pattish
@@ -983,7 +983,7 @@
 פסוטה,3173,Fassuta
 "פעמי תש""ז",562,Pa'ame Tashaz
 פצאל,304,Peza'el
-פקיעין (בוקייעה),5893,Peqi'in (Buqei'a)
+פקיעין (בוקייעה)#פקיעין,5893,Peqi'in (Buqei'a)
 פקיעין חדשה,535,Peqi'in Hadasha
 פרדס חנה-כרכור,43012,Pardes Hanna-Karkur
 פרדסייה,5930,Pardesiyya
@@ -1193,7 +1193,7 @@
 תושייה,955,Tushiyya
 תימורים,777,Timmorim
 תירוש,493,Tirosh
-תל אביב-יפו,460613,Tel Aviv - Yafo
+תל אביב-יפו#תל אביב,460613,Tel Aviv - Yafo
 תל יוסף,559,Tel Yosef
 תל יצחק,1022,Tel Yizhaq
 תל מונד,13144,Tel Mond
