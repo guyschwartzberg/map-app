@@ -2,7 +2,7 @@ import React, {PureComponent} from 'react';
 import ReactMapGL, { Popup }  from 'react-map-gl'
 import Pins from './pins'
 
-const accessToken = 'pk.eyJ1IjoiZGFtcmlkZXIiLCJhIjoiY2tmMng3ZGt0MDBhODJ5cG1rdzM1b3hvOCJ9.UdmG7TNnsdzMYK_S74GyNQ'
+const accessToken = process.env.REACT_APP_MAPBOX_ACCESS_TOKEN
 
   
   class Map extends PureComponent {

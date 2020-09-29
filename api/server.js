@@ -32,7 +32,7 @@ app.get('/city', async (req, res) => {
 
 app.use(express.static(path.join(__dirname, '..', 'build')));
 
-const PORT = process.env.PORT || 5000
+const PORT = process.env.PORT
 
 app.use('/*', async (request, response) => {
   response.sendFile(path.join(__dirname, '..', '/build/index.html'));
