@@ -46,7 +46,7 @@ function SearchBar(props) {
       onFinish={submitCity}>
         <Form.Item 
         name="cityname">
-      <Input className="inputbar"/>
+      <Input className="inputbar" autoComplete="off" autoFocus/>
       </Form.Item>
 </Form>
     </div>

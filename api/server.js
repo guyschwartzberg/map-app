@@ -6,13 +6,14 @@ const geocode = require('./geocode.js')
 
 app.use(express.json())
 
+const PORT = process.env.PORT || 5000;
 
 app.get('/city', async (req, res) => {
   if (!req.query.address) {
     return res.status(400).send()
   }
   try {
-  const data = await csv().fromFile('api/assets/cities_csv.csv')
+  const data = await csv().fromFile('assets/cities_csv.csv')
   const city = data.find((city) => city['Hebrew name'].replace(/-/g, ' ').split('#').some((city2) => city2 === req.query.address.replace(/-/g, ' ')))
   if (!city) {
     return res.status(404).send()
@@ -30,15 +31,16 @@ app.get('/city', async (req, res) => {
 }
 })
 
-app.use(express.static(path.join(__dirname, '..', 'build')));
+if (process.env.NODE_ENV === 'production') {
+  // Serve any static files
+  app.use(express.static(path.join(__dirname, '../client/build')));
 
-const PORT = process.env.PORT
-
-app.use('/*', async (request, response) => {
-  response.sendFile(path.join(__dirname, '..', '/build/index.html'));
-});
+  // Handle React routing, return all requests to React app
+  app.get('*', function(req, res) {
+    res.sendFile(path.join(__dirname, '../client/build', 'index.html'));
+  });
+}
 
 var server = app.listen(PORT, () => {
   console.log(`server started on port ${PORT}`)
-  console.log(server.address().address)
 });
